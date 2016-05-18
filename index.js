@@ -23,7 +23,7 @@ var formatNumber = (number, format) => {
 }
 
 var parseRGBA = (color) => {
-  let r, g, b, a = 1
+  var r, g, b, a = 1
 
   if (typeof color === 'string' && color.match(/^rgb\(\d+\s*,\s*\d+\s*,\s*\d+\s*\)$/i)) {
     const matches = color.match(/rgb\((\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)/i)
