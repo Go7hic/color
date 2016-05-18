@@ -1,0 +1,25 @@
+{
+  "name": "ncolor",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyygtfx/color.git"
+  },
+  "author": "Go7hic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dyygtfx/color/issues"
+  },
+  "homepage": "https://github.com/dyygtfx/color#readme",
+  "bin": {
+    "color": "index.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
