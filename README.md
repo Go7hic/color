@@ -8,7 +8,7 @@
 
 #### 使用：
 
-color '#fff'
+- color '#fff'
 
 
 ![demo](demo1.gif)
