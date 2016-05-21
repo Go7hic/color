@@ -1,8 +1,7 @@
 #! /usr/bin/env node
-'use strict'
-const param = process.argv[2]
-const colors = require('colors')
-const colorStr = param ? param : ''
+var param = process.argv[2]
+var colors = require('colors')
+var colorStr = param ? param : ''
 var isNumberAndInRange = (input, mix, max) => {
   return typeof value === 'number' && value >= min && value <= max
 }
@@ -83,6 +82,7 @@ const parseHex = (color) => {
 }
 
 class Color {
+
   constructor(color) {
     this.channel = undefined
 
@@ -189,6 +189,7 @@ var colorHex = new Color(colorStr)
 var colorHexA = new Color(colorStr)
 var colorRGB = new Color(colorStr)
 var colorRGBA = new Color(colorStr)
+
 console.log('RGB：'.bold.underline + colorHex.toRGB())
 console.log('RGBA：'.bold.underline + colorHexA.toRGBA())
 console.log('Hex：'.bold.underline + colorRGB.toHex())
