@@ -1,5 +1,7 @@
 # color
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dyygtfx/color.svg)](https://greenkeeper.io/)
+
 需要对 es6 支持友好的 Node 版本
 
 #### 安装：
